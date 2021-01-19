@@ -80,4 +80,4 @@ def to_camel_case(underscore_str):
             camelcase_str += word.lower().capitalize()
         return camelcase_str
     else:
-        return underscore_str
+        return splitted_word[0]
