@@ -36,8 +36,7 @@ def digits_to_words(input_string):
     for word in input_string:
         if word in digits_to_words_table:
             digit_string += digits_to_words_table[word] + ' '
-    digit_string.strip()
-    return digit_string
+    return digit_string.strip()
 
 
 """
